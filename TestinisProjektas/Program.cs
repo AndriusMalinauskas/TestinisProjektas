@@ -14,6 +14,7 @@ namespace TestinisProjektas
             int b = 5;
             Suma(a, b);
             Atimtis(a, b);
+            Daugyba(a, b);
 
         }
 
@@ -25,6 +26,10 @@ namespace TestinisProjektas
         static void Atimtis(int a, int b)
         {
             Console.WriteLine($"Atimtis = {a - b}");
+        }
+        static void Daugyba(int a, int b)
+        {
+            Console.WriteLine($"Daugyba = {a * b}");
         }
 
     }
