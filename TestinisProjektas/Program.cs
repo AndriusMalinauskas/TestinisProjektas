@@ -10,8 +10,8 @@ namespace TestinisProjektas
     {
         static void Main(string[] args)
         {
-            int a = 1;
-            int b = 5;
+            int a = 45;
+            int b = 52;
             Suma(a, b);
             Atimtis(a, b);
             Daugyba(a, b);
