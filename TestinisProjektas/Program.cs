@@ -13,12 +13,18 @@ namespace TestinisProjektas
             int a = 1;
             int b = 5;
             Suma(a, b);
+            Atimtis(a, b);
 
         }
 
         static void Suma(int a, int b)
         {
             Console.WriteLine($"Suma = {a + b}");
+        }
+
+        static void Atimtis(int a, int b)
+        {
+            Console.WriteLine($"Atimtis = {a - b}");
         }
 
     }
